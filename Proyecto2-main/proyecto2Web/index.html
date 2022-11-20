@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <link href="styles.css"
+      rel="stylesheet" type="text/css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="form">
+        <div class="title">Vorgon Generator</div>
+        <div class="subtitle">Crea tu poesía en Vorgon o en ESPAÑOL</div>
+        <div class="input-container ic1">
+          <input id="firstname" class="input" type="text" placeholder=" " required/>
+          <div class="cut"></div>
+          <label for="firstname" class="placeholder">Como te llamas</label>
+        </div>
+        <div class="input-container ic2">
+          <input id="ciudad" class="input" type="text" placeholder=" " required/>
+          <div class="cut"></div>
+          <label for="ciudad" class="placeholder">Di una ciudad</label>
+        </div>
+        <div class="input-container ic2">
+          <input id="objeto" class="input" type="text" placeholder=" " required/>
+          <div class="cut cut-short"></div>
+          <label for="objeto" class="placeholder">Di un objeto</label>
+        </div>
+        <button type="text" class="submit" onclick="getDatosVogon();">Vogon</button>
+        <button type="text" class="submit" onclick="getDatosSpain();">Español</button>
+        <p id="poema" style="height: 50px;">
+
+        </p>
+    </div>
+    <script src="./script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+</body>
+</html>

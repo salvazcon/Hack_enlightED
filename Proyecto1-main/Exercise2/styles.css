@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Poppins:wght@300&display=swap');
+
+body {
+  font-family: poppins, sans-serif;  
+  margin: 0px;
+}
+
+nav {
+  background: rgba(33, 42, 123, 0.484);
+  padding: 10px;
+  text-align: center;
+  width: 100%;
+  position: sticky;
+  top: 0px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0px 20px;
+  font-size: 1.3em;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+section {
+  min-height: 100vh;
+}
+
+section#header {
+  background: rgb(17, 21, 60);
+  color: #000000;
+  min-height: 30vh;
+}
+
+section#formacion {
+  background: rgb(55,34,195);
+  background: linear-gradient(0deg, rgba(55,34,195,1) 0%, rgba(24,3,99,1) 100%);
+  color: white;
+}
+
+section#experiencia {
+  background: rgb(34,151,195);
+  background: linear-gradient(0deg, rgba(34,151,195,1) 0%, rgba(55,34,195,1) 100%);
+  color: white;
+}
+
+section#contacto {
+  background: rgb(153,22,196);
+  background: linear-gradient(0deg, rgba(153,22,196,1) 0%, rgba(34,151,195,1) 100%);
+  color: white;
+}
+
+article {
+  width: 90%;
+  max-width: 600px;
+  padding: 20px;
+  margin: 0px auto;
+}
+
+h2 {
+  text-align: center;
+  padding: 40px 0px 0px 0px;
+  font-size: 3em;
+}
+
+p {
+  font-size: 1.5em;
+  text-align: center;
+}
+
+@media
+(prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  body {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    font-size: 11px;
+  }
+}
+
+#foto_portada{
+  width: 100%;
+  height: 40vh;
+}
+
+#foto_perfil
+{
+  position: absolute;
+  width: 25%;
+}
+
